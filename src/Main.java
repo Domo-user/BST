@@ -10,6 +10,7 @@ public class Main {
         tree.insert(new Node(7));
         tree.insert(new Node(3));
         tree.remove(2);
+        tree.remove(1);
         tree.search(7);
 
     tree.display();
